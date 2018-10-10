@@ -38,8 +38,8 @@ MAP = {'q': 'q',
 
 
 def main():
-    if len(sys.argv) <= 1:
-        print("Error: No Argument!")
+    if len(sys.argv) != 3:
+        print("Error: Worry Argument!")
         return
     if sys.argv[1] == '-h':
         print("Usage: qwd2nor.py <Source File> <Destination File>")
