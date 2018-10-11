@@ -10,9 +10,9 @@ wubi(五笔) table for norman keyboard layout user
 - wbx.txt: default qwerty wubi txt format file
 
 ### 用法
-1. 复制`wbn.conf`和`wbn.mb`文件到`~/.config/fcitx/table/`路径
-2. 在fcitx的设置菜单添加wubi-norman布局
-注意：由于norman布局的变化，原来p键(之字部)被移到了norman布局h键(原；符号)的位置。
+1. 复制`wbn.conf`和`wbn.mb`文件到`~/.config/fcitx/table/`路径  
+2. 在fcitx的设置菜单添加wubi-norman布局  
+注意：由于norman布局的变化，原来p键(之字部)被移到了norman布局h键(原；符号)的位置。  
 
 ### qwe2nor脚本用法
 Usage: qwd2nor.py <Source File> <Destination File>
