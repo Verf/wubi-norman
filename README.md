@@ -9,15 +9,15 @@ wubi(五笔) table for norman keyboard layout user
 - wbx.mb: default qwerty wubi table file
 - wbx.txt: default qwerty wubi txt format file
 
-### usage
-1. copy wbn.conf and wbn.mb file to ~/.config/fcitx/table/
-2. select wubin in fcitx configuration
+### 用法
+1. 复制`wbn.conf`和`wbn.mb`文件到`~/.config/fcitx/table/`路径
+2. 在fcitx的设置菜单添加wubi-norman布局
 
-### qwe2nor usage
+### qwe2nor脚本用法
 Usage: qwd2nor.py <Source File> <Destination File>
 
-The source file must in txt format.  
-You can transform mb format to txt format by mb2txt tool provided py fcitx.  
+源文件需要是txt格式的码表文件，转换出的文件同样为txt格式，若要使用需要转为mb格式  
+你可以使用fcitx提供的mb2txt工具把mb格式的码表转为txt格式  
 `mb2txt <mb file> > <txt file>`  
-Also you can use txt2mb tool transform txt format to mb format.  
+同样，你也可以使用txt2mb工具把txt格式的码表转为mb格式  
 `txt2mb <txt file> <mb file>`  
