@@ -15,7 +15,7 @@ wubi(五笔) table for norman keyboard layout user
 注意：由于norman布局的变化，原来p键(之字部)被移到了norman布局h键(原；符号)的位置。  
 
 ### qwe2nor脚本用法
-Usage: qwd2nor.py <Source File> <Destination File>
+Usage: qwe2nor.py <Source File> <Destination File>
 
 源文件需要是txt格式的码表文件，转换出的文件同样为txt格式，若要使用需要转为mb格式  
 你可以使用fcitx提供的mb2txt工具把mb格式的码表转为txt格式  
