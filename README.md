@@ -34,6 +34,7 @@ python qwe2nor.py <source file>
 很多码表文件都在文件开头进行参数设置，然后使用一个字段作为分隔，再之后才是字词编码内容，因此可以使用`-s`参数指定分隔字段：
 ```bash
 python qwe2nor.py -s <split token> <source file>
+```
 
 默认将在脚本的调用路径生成转换后的Norman布局码表文件，也可以使用`-o`参数指定输出路径：
 ```bash
