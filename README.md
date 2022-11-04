@@ -11,7 +11,7 @@
 
 ### Rime
 
-1. 复制`wubi86_norman.schema.yaml`和`wubi86_norman.dict.yaml`到Rime用户文件夹中
+1. 复制`wubi86_nn.schema.yaml`和`wubi86_nn.dict.yaml`到Rime用户文件夹中
 2. 在Rime的输入法设定中选择`五笔86-Norman`
 
 ## 脚本用法
