@@ -1,6 +1,6 @@
 # Wubi - Norman
 
-基于Norman键盘布局的五笔86码表，包括Fcitx版本和Rime版本。Fcitx版本和Rime版本都使用其内置的五笔码表，如果有特殊需求也可以使用本项目提供的转换脚本对其他码表进行转换。注意，由于Norman键盘布局的变化，Qwerty布局的`P`键（之字部，Norman布局中为`;`键）被移动到了`;`键位置（Norman布局中为`H`键）的位置，可能需要适应一段时间。
+基于Norman键盘布局的五笔86码表和五笔98码表，包括Fcitx版本和Rime版本。Fcitx版本和Rime版本都使用其内置的五笔码表，如果有特殊需求也可以使用本项目提供的转换脚本对其他码表进行转换。注意，由于Norman键盘布局的变化，Qwerty布局的`P`键（之字部，Norman布局中为`;`键）被移动到了`;`键位置（Norman布局中为`H`键）的位置，可能需要适应一段时间。
 
 ## 用法
 
@@ -11,8 +11,8 @@
 
 ### Rime
 
-1. 复制`wubi86_nn.schema.yaml`和`wubi86_nn.dict.yaml`到Rime用户文件夹中
-2. 在Rime的输入法设定中选择`五笔86-Norman`
+1. 复制`wubi86_nn.schema.yaml`和`wubi86_nn.dict.yaml`或`wubi98_nn.schema.yaml`和`wubi98_nn.dict.yaml`到Rime用户文件夹中
+2. 在Rime的输入法设定中选择`五笔86-Norman`或`五笔98nn`
 
 ## 脚本用法
 将QWERTY布局的fcitx码表文件或rime码表文件转换为Norman布局：
